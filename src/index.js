@@ -1,17 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header_Hero from './companents/hero-header/Header-Hero'
+import Desc from './companents/main/description/Desc'
+import Learn from './companents/main/learn/Learn'
+import Webinar from './companents/main/webinar/Webinar'
+import Apps from './companents/main/apps/Apps'
+import Pricing from './companents/main/pricing/Pricing'
+import FooterFile from './companents/footer/Footer'
+import './index.css'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+const Header__Hero = ReactDOM.createRoot(document.getElementById('hero-header'));
+const Main = ReactDOM.createRoot(document.getElementById('main'));
+const Footer = ReactDOM.createRoot(document.getElementById('footer'));
+
+Header__Hero.render(
+  <Header_Hero />
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+Main.render(
+  <>
+    <Desc />
+    <Learn />
+    <Webinar />
+    <Pricing />
+    <Apps />
+  </>
+);
+Footer.render(
+  <FooterFile />
+);

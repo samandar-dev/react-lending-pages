@@ -1,0 +1,139 @@
+.pri__inner {
+  position: relative;
+  width: 100%;
+  padding-top: 85px;
+  padding-bottom: 115px;
+}
+
+.pri__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.pri__item {
+  position: relative;
+  padding: 40px 36px 36px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+  border-radius: 20px;
+  border: 1.5px solid #272953;
+  overflow: hidden;
+}
+
+.pitem__top_box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1.5px solid #272953;
+}
+
+.pitem__price {
+  margin-left: 30px;
+}
+
+.pitem__mony {
+  display: flex;
+  align-items: center;
+}
+
+.pitem__tit {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+.pitem__num {
+  position: relative;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #f5453d;
+  margin: 0;
+  margin-right: 4px;
+}
+
+.pitem__d {
+  margin-top: -10px;
+  margin-right: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #f5453d;
+}
+
+.pitem__month {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: -5px;
+}
+
+.pitem_list {
+  height: 250px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.pitlis__item {
+  margin-bottom: 16px;
+}
+
+.pri__item_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pitlis__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+.pitlis__text::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  background: #9799ce;
+  border-radius: 50%;
+}
+
+.pitem__btn {
+  width: 310px;
+  height: auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 75px;
+  color: #f5443b;
+  border: 1px solid #f5443b;
+  background: transparent;
+  border-radius: 6px;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.pitem__btn:hover {
+  opacity: 1;
+}
+
+.pitem__btn:active {
+  color: #fff;
+  background: #f5443b;
+  opacity: 1;
+}

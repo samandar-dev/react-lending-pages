@@ -1,0 +1,146 @@
+.learn__inner {
+  position: relative;
+  width: 100%;
+  padding: 65px 0;
+}
+
+.learn__tit {
+  margin-bottom: 85px;
+}
+
+.learn__list {
+  width: auto;
+  height: 485px;
+  margin: 0;
+  padding: 0;
+  margin: 0 -16px 55px -16px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.learn__itme {
+  width: 265px;
+  height: 412px;
+  margin: 0 16px;
+  padding: 12px 12px 15px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.17) 100%);
+  border-radius: 20px;
+  border: 1px solid #292b56;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.learn__itme:hover {
+  height: 485px;
+}
+
+.learn__link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.leitem__img {
+  padding-left: 6px;
+  margin-bottom: 24px;
+}
+
+.leitem__tit {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3bf5bd;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.leitem__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.leitem__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 20px;
+  border-bottom: 1px solid #292b56;
+}
+
+.leitem__user_box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.leitem__user_img {
+  margin-right: 15px;
+}
+
+.leitem__name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.leitem__name_tit {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.leitem__btn-box {
+  width: 165px;
+  margin: 0 auto;
+}
+
+.leitem__item_btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 12px 32px;
+  color: #fff;
+  background: #f5443b;
+  border: 1px solid #f5443b;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.leitem__item_btn:hover {
+  color: #f5443b;
+  background: transparent;
+  border: 1px solid #f5443b;
+}
+
+.learn__btn_box {
+  width: 205px;
+  margin: 0 auto;
+}
+
+.learn__btn {
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f5443b;
+  background: transparent;
+  border: 1px solid #f5443b;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.learn__btn:hover {
+  color: #fff;
+  background: #f5443b;
+}
