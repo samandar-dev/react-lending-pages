@@ -19,8 +19,8 @@ function Webinar() {
               <img className='web__img' src={webImg1} />
             </li>
             <li className='web__item act-item'>
-              {/* <iframe className='web__img' width="620" height="420" src="https://www.youtube.com/embed/IZDV9YHDF58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-              <img className='web__img' src={webImg2} />
+              <iframe className='web__img' width="620" height="420" src="https://www.youtube.com/embed/IZDV9YHDF58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              {/* <img className='web__img' src={webImg2} /> */}
             </li>
             <li className='web__item'>
               <img className='web__img' src={webImg3} />
